@@ -14,7 +14,6 @@ public class InstagramCloneApplication {
     public static void main(String[] args) {
         SpringApplication.run(InstagramCloneApplication.class, args);
     }
-
     @Bean
     CommandLineRunner runner(RoleService roleService) {
         return args -> {
